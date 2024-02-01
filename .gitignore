@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# .NET
+bin/
+obj/
+*.dll
+*.exe
+
+# JavaScript
+node_modules/
+*.log
