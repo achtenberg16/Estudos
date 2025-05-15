@@ -9,6 +9,23 @@ obj/
 *.dll
 *.exe
 
-# JavaScript
-node_modules/
+# JavaScript / TypeScript
+**/node_modules/
 *.log
+*.tsbuildinfo
+**/dist/
+**/build/
+**/out/
+
+# IDEs
+# IntelliJ IDEA
+**/.idea/
+*.iml
+
+# Visual Studio Code
+**/.vscode/
+
+# Outras IDEs e editores
+**/.DS_Store
+**/Thumbs.db
+**/.env
