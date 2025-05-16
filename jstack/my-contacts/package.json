@@ -1,0 +1,26 @@
+{
+  "name": "jstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.31.0",
+    "eslit": "^6.0.0",
+    "globals": "^16.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
