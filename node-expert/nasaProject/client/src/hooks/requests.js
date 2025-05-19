@@ -1,4 +1,4 @@
-const APUR_URL = "http://localhost:8000";
+const APUR_URL = "http://localhost:5000";
 
 async function httpGetPlanets() {
   const response = await fetch(`${APUR_URL}/planets`);
